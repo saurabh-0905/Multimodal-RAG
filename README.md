@@ -15,4 +15,4 @@ chat.py             entry point - ask questions
 
 ## Get free API keys
 - Groq: https://console.groq.com/keys
-- Pinecone: https://app.pinecone.io (free serverless tier works fine)
+- Pinecone: https://app.pinecone.io (free serverless tier)
