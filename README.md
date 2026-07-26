@@ -1,4 +1,4 @@
-# Mini RAG (Python, multi-file)
+# Multimodal-RAG
 
 Chat with a PDF using local embeddings + Pinecone (MMR retrieval) + Groq.
 
@@ -11,18 +11,6 @@ vector_store.py     step 3-4: Pinecone connect, store, MMR retrieval
 llm.py              step 5: Groq call + grounding prompt
 ingest.py           entry point - run once per PDF
 chat.py             entry point - ask questions
-```
-
-## Setup
-```bash
-pip install -r requirements.txt
-cp .env.example .env   # add your GROQ_API_KEY and PINECONE_API_KEY
-```
-
-## Usage
-```bash
-python ingest.py yourfile.pdf   # creates the Pinecone index (if needed) and uploads chunks
-python chat.py                  # ask questions
 ```
 
 ## Get free API keys
