@@ -130,6 +130,8 @@ The current pipeline is text-only. Making it truly multimodal means changing thr
 
 Until these land, "multimodal" describes the destination, not the current state — tracked here rather than left unsaid.
 
-## License
+---
 
-MIT
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
